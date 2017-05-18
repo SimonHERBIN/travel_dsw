@@ -8,7 +8,7 @@ $news -> execute();
 $afficher = $news -> fetchAll();
 
 $i = 0;
-foreach($afficher as $key => $value){
+foreach($afficher as $value){
   if($i<3){
     if($value->private=1 && !isset($_SESSION["id"])){
     }
