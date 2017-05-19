@@ -1,6 +1,6 @@
 <?php
 
-require define.php;
+require "define.php";
 
 $login=$PDO->prepare("SELECT * FROM users WHERE pseudo=:pseudo AND password=:password");
 $login->bindValue(":pseudo", $_POST["pseudo"]);

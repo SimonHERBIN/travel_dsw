@@ -1,6 +1,6 @@
 <?php
 
-require define.php;
+require "define.php";
 
 session_start();
 $news = $PDO -> prepare("SELECT * FROM actus");

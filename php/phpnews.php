@@ -1,6 +1,6 @@
 <?php
 
-require define.php;
+require "define.php";
 
 session_start();
 $news = $PDO -> prepare("SELECT * FROM actus");
@@ -11,7 +11,6 @@ foreach($afficher as $value){
   if($value->private==1 && !isset($_SESSION["id"])){
   }
   else{
-    $i++;
     echo '<div class="col-sm-4 col-md-4">
     <div class="thumbnail">
     <img src="' . $value->image . '" alt="' . $value->imgalt . '">

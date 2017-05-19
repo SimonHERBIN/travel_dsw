@@ -1,6 +1,6 @@
 <?php
 
-require define.php;
+require "define.php";
 
 if($_POST["nom"]!="" && $_POST["prenom"]!="" && $_POST["pseudo"]!="" && $_POST["password"]!=""){
   $verif=$PDO->prepare("SELECT pseudo FROM users WHERE pseudo=:pseudo");
