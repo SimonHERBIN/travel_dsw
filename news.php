@@ -13,6 +13,7 @@
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/script.js"></script>
 	<script src="assets/js/espacemembre.js"></script>
+	<script src="assets/js/news.js"></script>
 </head>
 <body>
 
@@ -50,6 +51,13 @@
 				<h1>Travel DSW</h1>
 			</div>
 		</div>
+	</div>
+
+	<div class="container">
+		<div class="row" id="news">
+
+		</div>
+
 	</div>
 
 
