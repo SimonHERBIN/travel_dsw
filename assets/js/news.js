@@ -1,8 +1,8 @@
 $(function(){
   $.ajax({
-    url : "php/accueil.php",
+    url : "php/phpnews.php",
     success : function(news){
-      $("#phpnews").append(news)
+      $("#news").append(news)
     }
   })
 })

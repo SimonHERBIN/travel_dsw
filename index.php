@@ -13,6 +13,7 @@
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/script.js"></script>
 		<script src="assets/js/homenews.js"></script>
+		<script src="assets/js/espacemembre.js"></script>
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse navbar-static-top">
@@ -31,12 +32,12 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-left">
-						<li><a href="#">Accueil</a></li>
-						<li><a href="#">Actualités</a></li>
+						<li><a href="index.php">Accueil</a></li>
+						<li><a href="news.php">Actualités</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right ">
-						<li><a href="#">Contact</a></li>
-						<li><a href="#"><button class="btn btn-info">Espace membres</button></a></li>
+						<li><a href="contact.php">Contact</a></li>
+						<li><a href=""><button class="btn btn-info" id="membrebtn">Espace membres</button></a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
@@ -124,36 +125,7 @@
 		</div>
 	</div>
 	<div class="row" id="phpnews">
-		<!-- <div class="col-sm-4 col-md-4">
-			<div class="thumbnail">
-				<img src="assets/img/first.jpg" alt="eiffel tower">
-				<div class="caption">
-					<h3>Thumbnail label</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem facere quasi laborum consectetur excepturi, odio officiis, iste minima cum quas repudiandae et asperiores maiores, ipsam, quos itaque ullam nostrum. Magnam?</p>
-					<p><a href="#" class="btn btn-primary" role="button">Lire la suite</a></p>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-4 col-md-4">
-			<div class="thumbnail">
-				<img src="assets/img/first.jpg" alt="eiffel tower">
-				<div class="caption">
-					<h3>Thumbnail label</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt molestias, perspiciatis odit? Esse voluptatem labore eaque eius, illum nesciunt, vel deserunt quasi veniam non modi dicta similique aperiam ullam reprehenderit?</p>
-					<p><a href="#" class="btn btn-primary" role="button">Lire la suite</a></p>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-4 col-md-4">
-			<div class="thumbnail">
-				<img src="assets/img/first.jpg" alt="eiffel tower">
-				<div class="caption">
-					<h3>Thumbnail label</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quas, minima quos vel est aperiam in, dolorem asperiores expedita perspiciatis delectus quae, mollitia assumenda doloribus, minus ad consequatur. Libero, possimus?</p>
-					<p><a href="#" class="btn btn-primary" role="button">Lire la suite</a></p>
-				</div>
-			</div>
-		</div> -->
+
 	</div>
 </div>
 
@@ -162,9 +134,9 @@
 	<div class="row">
 		<div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-4">
 			<ul class="pull-left">
-				<li><a href"#">Actualités</a></li>
-				<li><a href"#">Contact</a></li>
-				<li><a href"#">Connexion</a></li>
+				<li><a href"news.php">Actualités</a></li>
+				<li><a href"contact.php">Contact</a></li>
+				<li><a href"login_and_register.php">Connexion</a></li>
 			</ul>
 		</div>
 		<div class="col-md-4 col-xs-4 text-center">
